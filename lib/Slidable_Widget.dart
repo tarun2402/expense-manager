@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class SlidableWidget<T> extends StatelessWidget {
+  final Widget child;
+
+  const SlidableWidget({
+    @required this.child,
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
